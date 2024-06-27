@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -164,4 +165,24 @@ body {
 
 .contentList li {
     padding-bottom: 2.5vh;
+}
+
+.contentList li span {
+    transition: background-color 0.3s;
+}
+
+
+.contentList a:any-link {
+    color: #88eaed;
+    text-decoration-color: #ffffff00;
+    transition: text-decoration-color 0.3s, color 0.3s;
+}
+
+.contentList a:any-link:hover {
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+.contentList li:hover span {
+    background-color: #ffffff;
 }
