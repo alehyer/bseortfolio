@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins:wght@600&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-
 /* All */
 
 * {
@@ -10,12 +9,15 @@
     padding: 0;
 }
 
+body {
+    background-color: #001122;
+}
 
 /* General Text types */
 
 .logo {
     position: relative;
-    top: 3.5%;
+    top: 4%;
     left: 4.5%;
     font-family: "IBM Plex Mono", monospace;
     font-size: 3vh;
@@ -52,8 +54,17 @@
     font-family: "IBM Plex Mono", monospace;
 }
 
+/* Home Page */
 
-/* Specific Text Types */
+.homePage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #001122;
+    overflow: hidden;
+}
 
 #homeHeader {
     position: absolute;
@@ -65,7 +76,7 @@
 
 #homeSubHeader {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 5%;
 }
 
@@ -83,26 +94,6 @@
     width: 90vh;
     text-align: justify;
 }
-
-
-/* Pages */
-
-body {
-    background-color: #001122;
-}
-
-.homepage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #001122;
-    overflow: hidden;
-}
-
-
-/* Home Page */
 
 .box {
     height: 5vh;
@@ -135,4 +126,42 @@ body {
     right: 5%;
     transform: translateY(-50%);
     height: 60vh;
+}
+
+/* Contents Page */
+
+.contentsPage {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#contentsHeader {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.contentList {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    list-style: none;
+}
+
+.number {
+    display: inline-block;
+    background-color: #88eaed;
+    text-align: center;
+    color: #001122;
+    height: auto;
+    width: 4vh;
+    border-radius: 1vh;
+}
+
+.contentList li {
+    padding-bottom: 2.5vh;
 }
