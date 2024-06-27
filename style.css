@@ -1,5 +1,139 @@
-body {
-    background-color: #1a1a1a;
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins:wght@600&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+/* All */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* General Text types */
+
+.logo {
+    position: relative;
+    top: 3.5%;
+    left: 4.5%;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 3vh;
     color: #ffffff;
-    font-family: monospace;
+}
+
+.logoImg {
+    position: absolute;
+    top: 3%;
+    left: 1.5%;
+    height: 5vh;
+}
+
+.header {
+    font-family: "Poppins", sans-serif;
+    font-size: 8vh;
+    color: #ffd000;
+    line-height: 12vh;
+}
+
+.subHeader {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 4vh;
+    color: #88eaed;
+}
+
+.text {
+    color: #ffffff;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.colorText {
+    color: #88eaed;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+
+/* Specific Text Types */
+
+#homeHeader {
+    position: absolute;
+    width: 90vh;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5%;
+}
+
+#homeSubHeader {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+#homeSubText {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#homeText {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    height: 10vh;
+    width: 90vh;
+    text-align: justify;
+}
+
+
+/* Pages */
+
+body {
+    background-color: #001122;
+}
+
+.homepage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #001122;
+    overflow: hidden;
+}
+
+
+/* Home Page */
+
+.box {
+    height: 5vh;
+    width: 5vh;
+    outline: #88eaed solid 0.25vh;
+    rotate: 45deg;
+}
+
+#box1 {
+    position: absolute;
+    top: 10%;
+    right: -2vh;
+}
+
+#box2 {
+    display: none;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+}
+
+#box3 {
+    position: absolute;
+    top: 90%;
+    right: 70%;
+}
+
+.homeImage {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    height: 60vh;
 }
