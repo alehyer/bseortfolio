@@ -1,0 +1,1 @@
+alert("Please use a computer to access this webpage, the layout is not optimized for mobile phones yet.");

@@ -211,20 +211,23 @@ body {
 }
 
 #box4 {
+    z-index: -10;
     position: absolute;
     top: 20%;
     right: 10%;
 }
 
 #box5 {
+    z-index: -10;
     position: absolute;
     top: 80%;
     right: 40%;
 }
 
 #box6 {
+    z-index: -10;
     position: absolute;
-    top: 70%;
+    top: 30%;
     left: -1vh;
 }
 
@@ -246,23 +249,12 @@ body {
     left: 5%;
 }
 
-.reflectionBox {
-    width: 70vh;
-    height: 60vh;
-    background-color: #88eaed;
-    border-radius: 1vh;
-    text-align: justify;
-    overflow: scroll;
-    margin-bottom: 10vh;
-    margin-right: 10vh;
-}
-
 .reflectionBox .subHeader {
     color: #001122;
     padding-bottom: 2vh;
 }
 
-.reflectionScroll {
+.reflectionContainer {
     overflow-x: scroll;
     position: absolute;
     width: 100%;
@@ -271,14 +263,27 @@ body {
     transform: translateX(-50%);
 }
 
+.reflectionBox {
+    width: 70vh;
+    height: 60vh;
+    background-color: #88eaed;
+    border-radius: 4vh;
+    text-align: justify;
+    overflow: scroll;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+    display: inline-block;
+}
+
 .reflectionBox::-webkit-scrollbar {
     width: 2vh;
     height: 0vh;
 }
-  
+
 .reflectionBox::-webkit-scrollbar-track {
     background: #ffffff00;
     width: 4vh;
+    margin-block: 3vh;
 }
 
 .reflectionBox::-webkit-scrollbar-thumb {
@@ -289,12 +294,28 @@ body {
     width: 4vh;
 }
 
-#reflectionBox1, #reflectionBox2, #reflectionBox3, #reflectionBox4 {
-    display: inline-block;
-}
-
 .paddedBox {
     padding: 5vh;
     padding-top: 3vh;
 }
 
+#box7 {
+    z-index: -10;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#box8 {
+    z-index: -10;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+
+#box9 {
+    z-index: -10;
+    position: absolute;
+    top: 70%;
+    right: 10vh;
+}
