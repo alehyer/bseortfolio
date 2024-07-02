@@ -86,7 +86,6 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #001122;
     overflow: hidden;
 }
 
@@ -127,18 +126,21 @@ body {
 }
 
 #box1 {
+    z-index: -100;
     position: absolute;
     top: 10%;
     right: -2vh;
 }
 
 #box2 {
+    z-index: -100;
     position: absolute;
     top: 80%;
     right: 20%;
 }
 
 #box3 {
+    z-index: -100;
     position: absolute;
     top: 90%;
     right: 70%;
