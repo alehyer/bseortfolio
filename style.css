@@ -249,11 +249,6 @@ body {
     left: 5%;
 }
 
-.reflectionBox .subHeader {
-    color: #001122;
-    padding-bottom: 2vh;
-}
-
 .reflectionContainer {
     overflow-x: scroll;
     position: absolute;
@@ -273,6 +268,11 @@ body {
     margin-bottom: 10vh;
     margin-right: 10vh;
     display: inline-block;
+}
+
+.reflectionBox .subHeader {
+    color: #001122;
+    padding-bottom: 2vh;
 }
 
 .reflectionBox::-webkit-scrollbar {
