@@ -14,6 +14,24 @@ body {
     background-color: #001122;
 }
 
+::-webkit-scrollbar {
+    left: 2vh;
+    width: 2vh;
+}
+  
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffd000;
+    border-radius: 1vh;
+    margin-block: 2vh;
+    border: 0.5vh solid #001122;
+    width: 2vh;
+}
+
 /* General Text types */
 
 .logo {
@@ -52,6 +70,11 @@ body {
 
 .colorText {
     color: #88eaed;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.darkText {
+    color: #001122;
     font-family: "IBM Plex Mono", monospace;
 }
 
@@ -186,3 +209,92 @@ body {
 .contentList li:hover span {
     background-color: #ffffff;
 }
+
+#box4 {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+
+#box5 {
+    position: absolute;
+    top: 80%;
+    right: 40%;
+}
+
+#box6 {
+    position: absolute;
+    top: 70%;
+    left: -1vh;
+}
+
+/* Reflections Page */
+
+.reflectionPage {
+    position: absolute;
+    top: 200%;
+    left: 0%;
+    height: 180%;
+    width: 100%;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.reflectionPage .header{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.reflectionBox {
+    width: 70vh;
+    height: 60vh;
+    background-color: #88eaed;
+    border-radius: 1vh;
+    text-align: justify;
+    overflow: scroll;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+}
+
+.reflectionBox .subHeader {
+    color: #001122;
+    padding-bottom: 2vh;
+}
+
+.reflectionScroll {
+    overflow-x: scroll;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.reflectionBox::-webkit-scrollbar {
+    width: 2vh;
+    height: 0vh;
+}
+  
+.reflectionBox::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+}
+
+.reflectionBox::-webkit-scrollbar-thumb {
+    background: #001122;
+    border-radius: 1vh;
+    height: 2vh;
+    border: 0.5vh solid #88eaed;
+    width: 4vh;
+}
+
+#reflectionBox1, #reflectionBox2, #reflectionBox3, #reflectionBox4 {
+    display: inline-block;
+}
+
+.paddedBox {
+    padding: 5vh;
+    padding-top: 3vh;
+}
+
