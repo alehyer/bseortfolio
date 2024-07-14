@@ -180,7 +180,7 @@ body {
 
 .number {
     display: inline-block;
-    background-color: #88eaed;
+    background-color: #ffd000;
     text-align: center;
     color: #001122;
     height: auto;
@@ -198,18 +198,18 @@ body {
 
 
 .contentList a:any-link {
-    color: #88eaed;
+    color: #ffffff;
     text-decoration-color: #ffffff00;
     transition: text-decoration-color 0.3s, color 0.3s;
 }
 
 .contentList a:any-link:hover {
-    color: #ffffff;
-    text-decoration-color: #ffffff;
+    color: #88eaed;
+    text-decoration-color: #88eaed;
 }
 
 .contentList li:hover span {
-    background-color: #ffffff;
+    background-color: #88eaed;
 }
 
 #box4 {
@@ -233,11 +233,97 @@ body {
     left: -1vh;
 }
 
+/* Timeline Page */
+
+.timelinePage {
+    position: absolute;
+    top: 200%;
+    left: 0%;
+    height: 330%;
+    width: 100%;
+}
+
+.timelinePage .header {
+    position: absolute;
+    top: 3.33%;
+    left: 5%;
+}
+
+.timeline {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translateX(-50%);
+    background-color: #88eaed;
+    height: 90%;
+    width: 2vh;
+    border-radius: 1vh;
+}
+
+.timestamp {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 8vh;
+    width: 30vh;
+    background-color: #88eaed;
+    color: #001122;
+    border-radius: 6vh;
+    text-align: center;
+    padding-top: 2vh;
+    display: inline-block;
+    margin-bottom: 2.5vh;
+}
+
+.timelineBox {
+    position: relative;
+    width: 70vh;
+    border-radius: 4vh;
+    text-align: justify;
+    margin-bottom: 2vh;
+    margin-left: 5vh;
+    display: inline-block;
+}
+
+.timelineBox ol {
+    margin-left: 2rem;
+    margin-bottom: 3vh;
+}
+
+.timelineBox .subHeader {
+    padding-bottom: 2vh;
+    color: #ffd000;
+}
+
+.timelineBox::-webkit-scrollbar {
+    width: 2vh;
+    height: 0vh;
+}
+
+.timelineBox::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+    margin-block: 3vh;
+}
+
+.timelineBox::-webkit-scrollbar-thumb {
+    background: #001122;
+    border-radius: 1vh;
+    height: 2vh;
+    border: 0.5vh solid #88eaed;
+    width: 4vh;
+}
+
+.timelineBox .paddedBox {
+    padding: 5vh;
+    padding-top: 3vh;
+}
+
 /* Reflections Page */
 
 .reflectionPage {
     position: absolute;
-    top: 200%;
+    top: 530%;
     left: 0%;
     height: 180%;
     width: 100%;
@@ -296,7 +382,7 @@ body {
     width: 4vh;
 }
 
-.paddedBox {
+.reflectionBox .paddedBox {
     padding: 5vh;
     padding-top: 3vh;
 }
