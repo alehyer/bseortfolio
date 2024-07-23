@@ -78,6 +78,35 @@ body {
     font-family: "IBM Plex Mono", monospace;
 }
 
+.img {
+    position: absolute;
+    right: 10%;
+    height: 40vh;
+}
+
+.contentsPage .img {
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.timelinePage img {
+    position: absolute;
+    right: 10%;
+    height: 40vh;
+}
+
+#img1 {
+    top: 20%;
+}
+
+#img2 {
+    top: 50%;
+}
+
+#img3 {
+    top: 80%;
+}
+
 /* Home Page */
 
 .homePage {
@@ -572,6 +601,10 @@ body {
 .referenceBox  p {
     text-indent: -6vh;
     padding-left: 6vh;
+}
+
+.referenceBox .darkText {
+    line-height: 6vh;
 }
 
 .referenceBox::-webkit-scrollbar {
