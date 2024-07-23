@@ -445,11 +445,200 @@ body {
     right: 10vh;
 }
 
+/* Research Pages */
+
+.researchPage1 {
+    position: absolute;
+    top: 1050%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.researchPage2 {
+    position: absolute;
+    top: 1150%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.researchContainer .subHeader {
+    color: #001122;
+}
+
+.researchPage1 .header, .researchPage2 .header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.researchPage1 .subHeader, .colorText, ol li {
+    margin-bottom: 2vh;
+}
+
+.researchPage1 .text {
+    margin-bottom: 4vh;
+}
+
+.researchPage1 ol {
+    margin-left: 6vh;
+}
+
+.researchContainer {
+    background-color: #88eaed;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    text-align: justify;
+    height: 75vh;
+    overflow-y: scroll;
+    border-radius: 4vh;
+}
+
+.researchContainer .darkText {
+    color: #001122;
+    padding-bottom: 2vh;
+}
+
+.researchContainer  p {
+    text-indent: -6vh;
+    padding-left: 6vh;
+}
+
+.researchContainer::-webkit-scrollbar {
+    width: 2vh;
+    height: 0vh;
+}
+
+.researchContainer::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+    margin-block: 3vh;
+}
+
+.researchContainer::-webkit-scrollbar-thumb {
+    background: #001122;
+    border-radius: 1vh;
+    height: 2vh;
+    border: 0.5vh solid #88eaed;
+    width: 4vh;
+}
+
+.researchContainer .paddedBox {
+    padding: 10vh;
+    padding-top: 6vh;
+}
+
+/* References Page */
+
+.referencePage .header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.referencePage {
+    position: absolute;
+    top: 1250%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.referenceBox {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 75vh;
+    background-color: #88eaed;
+    border-radius: 4vh;
+    text-align: justify;
+    overflow: scroll;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+    display: inline-block;
+}
+
+.referenceBox .subHeader {
+    color: #001122;
+    padding-bottom: 2vh;
+}
+
+.referenceBox  p {
+    text-indent: -6vh;
+    padding-left: 6vh;
+}
+
+.referenceBox::-webkit-scrollbar {
+    width: 2vh;
+    height: 0vh;
+}
+
+.referenceBox::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+    margin-block: 3vh;
+}
+
+.referenceBox::-webkit-scrollbar-thumb {
+    background: #001122;
+    border-radius: 1vh;
+    height: 2vh;
+    border: 0.5vh solid #88eaed;
+    width: 4vh;
+}
+
+.referenceBox .paddedBox {
+    padding: 5vh;
+    padding-top: 3vh;
+}
+
+/* Research Paper */
+
+.researchPaper {
+    position: absolute;
+    top: 1350%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.researchContainer .subHeader {
+    color: #001122;
+}
+
+.researchPaper .header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+/* Publicised Page */
+
+.publicisedPage {
+    position: absolute;
+    top: 1450%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.publicisedPage .header{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
 /* Reflections Page */
 
 .reflectionPage {
     position: absolute;
-    top: 1050%;
+    top: 1550%;
     left: 0%;
     height: 180%;
     width: 100%;
