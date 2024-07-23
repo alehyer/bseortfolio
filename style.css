@@ -47,7 +47,7 @@ body {
     position: absolute;
     top: 3%;
     left: 1.5%;
-    height: 5vh;
+    height: 6vh;
 }
 
 .header {
@@ -165,7 +165,7 @@ body {
     overflow: hidden;
 }
 
-#contentsHeader {
+.contentsPage .header {
     position: absolute;
     top: 10%;
     left: 5%;
@@ -356,11 +356,100 @@ body {
     text-align: justify;
 }
 
+/* Responsees Page */
+
+.responsePage {
+    position: absolute;
+    top: 870%;
+    left: 0%;
+    height: 180%;
+    width: 100%;
+    overflow: hidden;
+    scrollbar-width: none;
+}
+
+.responsePage .header{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.responseContainer {
+    overflow-x: scroll;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    left: 60%;
+    transform: translateX(-50%);
+}
+
+.responseBox {
+    width: 70vh;
+    height: 60vh;
+    background-color: #88eaed;
+    border-radius: 4vh;
+    text-align: justify;
+    overflow: scroll;
+    margin-bottom: 10vh;
+    margin-right: 10vh;
+    display: inline-block;
+}
+
+.responseBox .subHeader {
+    color: #001122;
+    padding-bottom: 2vh;
+}
+
+.responseBox::-webkit-scrollbar {
+    width: 2vh;
+    height: 0vh;
+}
+
+.responseBox::-webkit-scrollbar-track {
+    background: #ffffff00;
+    width: 4vh;
+    margin-block: 3vh;
+}
+
+.responseBox::-webkit-scrollbar-thumb {
+    background: #001122;
+    border-radius: 1vh;
+    height: 2vh;
+    border: 0.5vh solid #88eaed;
+    width: 4vh;
+}
+
+.responseBox .paddedBox {
+    padding: 5vh;
+    padding-top: 3vh;
+}
+
+#box7 {
+    z-index: -10;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#box8 {
+    z-index: -10;
+    position: absolute;
+    top: 90%;
+    left: 3%;
+}
+
+#box9 {
+    z-index: -10;
+    position: absolute;
+    top: 70%;
+    right: 10vh;
+}
+
 /* Reflections Page */
 
 .reflectionPage {
     position: absolute;
-    top: 870%;
+    top: 1050%;
     left: 0%;
     height: 180%;
     width: 100%;
