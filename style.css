@@ -78,6 +78,10 @@ body {
     font-family: "IBM Plex Mono", monospace;
 }
 
+b {
+    font-size: 2.5vh;
+}
+
 .img {
     position: absolute;
     right: 10%;
@@ -268,7 +272,7 @@ body {
     position: absolute;
     top: 200%;
     left: 0%;
-    height: 330%;
+    height: 300%;
     width: 100%;
 }
 
@@ -284,7 +288,7 @@ body {
     left: 20%;
     transform: translateX(-50%);
     background-color: #88eaed;
-    height: 90%;
+    height: 95%;
     width: 2vh;
     border-radius: 1vh;
 }
@@ -352,7 +356,7 @@ body {
 
 .outlinePage {
     position: absolute;
-    top: 530%;
+    top: 510%;
     left: 0%;
     height: 340%;
     width: 100%;
@@ -389,9 +393,9 @@ body {
 
 .responsePage {
     position: absolute;
-    top: 870%;
+    top: 780%;
     left: 0%;
-    height: 180%;
+    height: 300%;
     width: 100%;
     overflow: hidden;
     scrollbar-width: none;
@@ -399,7 +403,7 @@ body {
 
 .responsePage .header{
     position: absolute;
-    top: 5%;
+    top: 2.5%;
     left: 5%;
 }
 
@@ -407,13 +411,13 @@ body {
     overflow-x: scroll;
     position: absolute;
     width: 100%;
-    top: 15%;
-    left: 60%;
+    top: 8%;
+    left: 65%;
     transform: translateX(-50%);
 }
 
 .responseBox {
-    width: 70vh;
+    width: 70%;
     height: 60vh;
     background-color: #88eaed;
     border-radius: 4vh;
@@ -478,7 +482,7 @@ body {
 
 .researchPage1 {
     position: absolute;
-    top: 1050%;
+    top: 1080%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -486,7 +490,7 @@ body {
 
 .researchPage2 {
     position: absolute;
-    top: 1150%;
+    top: 1180%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -561,6 +565,26 @@ body {
     padding-top: 6vh;
 }
 
+/* Research Paper */
+
+.researchPaper {
+    position: absolute;
+    top: 1280%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.researchContainer .subHeader {
+    color: #001122;
+}
+
+.researchPaper .header {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
 /* References Page */
 
 .referencePage .header {
@@ -571,7 +595,7 @@ body {
 
 .referencePage {
     position: absolute;
-    top: 1250%;
+    top: 1380%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -631,31 +655,11 @@ body {
     padding-top: 3vh;
 }
 
-/* Research Paper */
-
-.researchPaper {
-    position: absolute;
-    top: 1350%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-}
-
-.researchContainer .subHeader {
-    color: #001122;
-}
-
-.researchPaper .header {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-}
-
 /* Publicised Page */
 
 .publicisedPage {
     position: absolute;
-    top: 1450%;
+    top: 1480%;
     left: 0%;
     height: 100%;
     width: 100%;
@@ -667,13 +671,23 @@ body {
     left: 5%;
 }
 
+iframe {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2vh;
+    height: 73.2vh;
+    width: 130vh;
+}
+
 /* Reflections Page */
 
 .reflectionPage {
     position: absolute;
-    top: 1550%;
+    top: 1580%;
     left: 0%;
-    height: 180%;
+    height: 300%;
     width: 100%;
     overflow: hidden;
     scrollbar-width: none;
@@ -681,7 +695,7 @@ body {
 
 .reflectionPage .header{
     position: absolute;
-    top: 5%;
+    top: 2.5%;
     left: 5%;
 }
 
@@ -689,13 +703,13 @@ body {
     overflow-x: scroll;
     position: absolute;
     width: 100%;
-    top: 15%;
-    left: 60%;
+    top: 8%;
+    left: 65%;
     transform: translateX(-50%);
 }
 
 .reflectionBox {
-    width: 70vh;
+    width: 70%;
     height: 60vh;
     background-color: #88eaed;
     border-radius: 4vh;
