@@ -661,19 +661,19 @@ b {
     position: absolute;
     top: 1480%;
     left: 0%;
-    height: 100%;
+    height: 200%;
     width: 100%;
 }
 
 .publicisedPage .header{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 5%;
 }
 
-iframe {
+.ytVideo {
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 2vh;
@@ -681,11 +681,26 @@ iframe {
     width: 130vh;
 }
 
+.igContainer {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    width:max-content;
+    transform: translateX(-50%);
+}
+
+.igPost1, .igPost2 {
+    display: inline-block;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    width: 60vh;
+}
+
 /* Reflections Page */
 
 .reflectionPage {
     position: absolute;
-    top: 1580%;
+    top: 1680%;
     left: 0%;
     height: 300%;
     width: 100%;
